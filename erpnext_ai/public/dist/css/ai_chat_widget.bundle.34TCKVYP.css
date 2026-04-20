@@ -1,0 +1,85 @@
+/* ../../../../../tmp/tmp-84858-4fpCovUeRZmv/erpnext_ai/erpnext_ai/public/css/ai_chat_widget.bundle.css */
+#erpnext-ai-chat-btn {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  background: #111;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 99999;
+  font-weight: 700;
+}
+#erpnext-ai-chat-panel {
+  position: fixed;
+  right: 18px;
+  bottom: 80px;
+  width: 360px;
+  height: 520px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 99999;
+}
+#erpnext-ai-chat-panel.open {
+  display: flex;
+}
+#erpnext-ai-chat-panel .ai-header {
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  border-bottom: 1px solid #eee;
+}
+#erpnext-ai-chat-panel .ai-body {
+  padding: 10px;
+  flex: 1;
+  overflow: auto;
+  background: #fafafa;
+}
+#erpnext-ai-chat-panel .ai-footer {
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+#erpnext-ai-chat-panel input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+#erpnext-ai-chat-panel button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+.ai-msg {
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin: 8px 0;
+  max-width: 90%;
+  white-space: pre-wrap;
+}
+.ai-msg.me {
+  margin-left: auto;
+  background: #dff0ff;
+}
+.ai-msg.bot {
+  margin-right: auto;
+  background: #fff;
+  border: 1px solid #eee;
+}
+/*# sourceMappingURL=ai_chat_widget.bundle.34TCKVYP.css.map */
